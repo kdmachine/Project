@@ -1,0 +1,45 @@
+.footer {
+	width: 100%;
+	height: 180px;
+	background-color: #2d2188;
+  padding: 24px 280px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-label {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 6px 0;
+}
+
+.footer-label__right {
+  position: absolute;
+  right: 280px;
+}
+
+.mobile-app {
+  display: flex;
+}
+
+.mobile-app__btn {
+  display: flex;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px 8px 8px 0;
+  border: 1px solid white;
+  padding: 6px 12px;
+  margin: 32px 0 0 6px;
+  align-items: center;
+}
+
+.mobile-app__btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.mobile-app__icon {
+  font-size: 24px;
+  padding-right: 6px;
+}

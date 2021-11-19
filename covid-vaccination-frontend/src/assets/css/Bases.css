@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: Roboto !important; 
+  background-color: #f2f3f5;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-30%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
